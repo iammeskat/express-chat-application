@@ -4,7 +4,8 @@
   "description": "practicing express.js",
   "main": "app.js",
   "scripts": {
-    "test": ""
+    "start": "NODE_ENV=development nodemon app.js",
+    "prod": "NODE_ENV=production node app.js"
   },
   "repository": {
     "type": "git",
